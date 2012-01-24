@@ -33,12 +33,12 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="5">
       <Unit0>
         <Filename Value="serie_alternanta.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="serie_alternanta"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="25"/>
       </Unit0>
       <Unit1>
         <Filename Value="bisection.pas"/>
@@ -49,13 +49,37 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="18"/>
-        <CursorPos X="27" Y="38"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="60"/>
+        <CursorPos X="12" Y="76"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="/usr/lib/lazarus/0.9.30/lcl/interfaces/gtk2/gtk2wsstdctrls.pp"/>
+        <UnitName Value="Gtk2WSStdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1512"/>
+        <CursorPos X="26" Y="1528"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/lib/lazarus/0.9.30.2/ide/lazconf.pp"/>
+        <UnitName Value="LazConf"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="42"/>
+        <CursorPos X="41" Y="49"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/local/share/lazarus/components/opengl/glqtcontext.pas"/>
+        <UnitName Value="GLQTContext"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="135"/>
+        <CursorPos X="15" Y="150"/>
+        <UsageCount Value="10"/>
+      </Unit4>
     </Units>
-    <JumpHistory Count="15" HistoryIndex="14">
+    <JumpHistory Count="25" HistoryIndex="24">
       <Position1>
         <Filename Value="bisection.pas"/>
         <Caret Line="26" Column="10" TopLine="1"/>
@@ -114,8 +138,48 @@
       </Position14>
       <Position15>
         <Filename Value="bisection.pas"/>
-        <Caret Line="38" Column="25" TopLine="18"/>
+        <Caret Line="38" Column="27" TopLine="18"/>
       </Position15>
+      <Position16>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="45" Column="27" TopLine="29"/>
+      </Position16>
+      <Position17>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="36" Column="16" TopLine="26"/>
+      </Position17>
+      <Position18>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="55" Column="1" TopLine="30"/>
+      </Position18>
+      <Position19>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="35" Column="6" TopLine="28"/>
+      </Position19>
+      <Position20>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="36" Column="6" TopLine="29"/>
+      </Position20>
+      <Position21>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="37" Column="6" TopLine="30"/>
+      </Position21>
+      <Position22>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="41" Column="3" TopLine="33"/>
+      </Position22>
+      <Position23>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="69" Column="4" TopLine="50"/>
+      </Position23>
+      <Position24>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="65" Column="10" TopLine="50"/>
+      </Position24>
+      <Position25>
+        <Filename Value="bisection.pas"/>
+        <Caret Line="70" Column="23" TopLine="50"/>
+      </Position25>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -127,14 +191,10 @@
       <IncludeFiles Value="$(ProjOutDir)/"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
-    <Linking>
-      <Options>
-        <Win32>
-          <GraphicApplication Value="True"/>
-        </Win32>
-      </Options>
-    </Linking>
     <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
       <CompilerPath Value="$(CompPath)"/>
     </Other>
   </CompilerOptions>

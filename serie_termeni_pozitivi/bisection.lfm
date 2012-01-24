@@ -6,7 +6,7 @@ object Form1: TForm1
   Caption = 'Form1'
   ClientHeight = 240
   ClientWidth = 320
-  LCLVersion = '0.9.29'
+  LCLVersion = '0.9.30'
   object Button1: TButton
     Left = 32
     Height = 25
@@ -18,7 +18,7 @@ object Form1: TForm1
   end
   object Edit1: TEdit
     Left = 70
-    Height = 24
+    Height = 27
     Top = 141
     Width = 80
     TabOrder = 1
@@ -29,13 +29,13 @@ object Form1: TForm1
     Height = 25
     Top = 40
     Width = 192
-    Caption = 'Calc Serie Alternanta 2'
+    Caption = 'Serie Pozitiva'
     OnClick = Button2Click
     TabOrder = 2
   end
   object Label1: TLabel
     Left = 32
-    Height = 15
+    Height = 18
     Top = 141
     Width = 21
     Caption = 'ln2'
